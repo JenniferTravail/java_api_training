@@ -1,6 +1,5 @@
 package fr.lernejo.navy_battle;
 
-import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpServer;
 import fr.lernejo.navy_battle.PingHello.PingHello;
 import fr.lernejo.navy_battle.game.ApiGame;
@@ -11,7 +10,6 @@ import fr.lernejo.navy_battle.utilEnum.CellStatus;
 import fr.lernejo.navy_battle.utilEnum.Consequence;
 import org.json.JSONObject;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 
